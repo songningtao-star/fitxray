@@ -1,0 +1,31 @@
+# fitxray 配置
+#
+# 这个文件只覆盖参数，不覆盖数据源 —— 数据永远走命令行参数。
+# 免得出现「我改了配置但报告没变」这种要查半天的事。
+#
+# 所有项都有内置默认值，这个文件删掉程序照样跑。
+
+# 测量记录。CLI 的 --csv 会覆盖这里。
+measurements: data/sample.csv
+
+# 个人资料（性别/身高/设备 ID）。CLI 的 --profile 会覆盖这里。
+profile: data/profile.yaml
+
+# 设备 ID。跨设备的数据会被判为不可比，所以这个值要和你 CSV 里的一致。
+# 留空的话就从 profile 里取。
+device_id: "mi-scale-2"
+
+# 多重比较校正的假发现率（FDR）水平。
+# 收紧到 0.01 会更保守：判定为「真实变化」的指标更少，也更不容易误报。
+alpha: 0.05
+
+# ---- 以下只在 --synthesize / --evaluate 时用到 ----
+
+# 生成示例数据的输出目录
+out_dir: data
+
+# 注入"不该拿来比"的测量的比例
+contamination: 0.10
+
+# 评测跑多少个随机种子。跑得越多结论越稳，也越慢。
+evaluate_seeds: 30

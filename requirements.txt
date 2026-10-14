@@ -1,0 +1,6 @@
+# 运行只需要这两个。
+numpy>=1.20
+PyYAML>=5.4
+
+# 跑测试才需要（python -m pytest -q）
+# pytest>=7.0

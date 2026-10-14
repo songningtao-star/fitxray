@@ -1,0 +1,840 @@
+{
+  "seed": 7,
+  "total_days": 120,
+  "te_weight": 0.5,
+  "method_bf_pct": 3.0,
+  "segments": [
+    {
+      "days": 45,
+      "fat_rate": -0.035,
+      "note": "减脂期"
+    },
+    {
+      "days": 30,
+      "fat_rate": 0.0,
+      "note": "平台期"
+    },
+    {
+      "days": 45,
+      "fat_rate": -0.02,
+      "note": "继续减"
+    }
+  ],
+  "changepoints": [
+    {
+      "day": 0,
+      "note": "减脂期"
+    },
+    {
+      "day": 45,
+      "note": "平台期"
+    },
+    {
+      "day": 75,
+      "note": "继续减"
+    }
+  ],
+  "contaminated_indices": [
+    3,
+    26,
+    83,
+    91,
+    93
+  ],
+  "contamination_rate": 0.1,
+  "n_records": 99,
+  "rows": [
+    {
+      "day": 0,
+      "date": "2026-01-01",
+      "true_weight_kg": 80.0,
+      "true_fat_mass_kg": 20.0,
+      "true_lean_mass_kg": 60.0,
+      "true_body_fat_pct": 25.0
+    },
+    {
+      "day": 1,
+      "date": "2026-01-02",
+      "true_weight_kg": 79.959,
+      "true_fat_mass_kg": 19.965,
+      "true_lean_mass_kg": 59.994,
+      "true_body_fat_pct": 24.969
+    },
+    {
+      "day": 2,
+      "date": "2026-01-03",
+      "true_weight_kg": 79.918,
+      "true_fat_mass_kg": 19.93,
+      "true_lean_mass_kg": 59.988,
+      "true_body_fat_pct": 24.938
+    },
+    {
+      "day": 3,
+      "date": "2026-01-04",
+      "true_weight_kg": 79.877,
+      "true_fat_mass_kg": 19.895,
+      "true_lean_mass_kg": 59.982,
+      "true_body_fat_pct": 24.907
+    },
+    {
+      "day": 4,
+      "date": "2026-01-05",
+      "true_weight_kg": 79.836,
+      "true_fat_mass_kg": 19.86,
+      "true_lean_mass_kg": 59.976,
+      "true_body_fat_pct": 24.876
+    },
+    {
+      "day": 6,
+      "date": "2026-01-07",
+      "true_weight_kg": 79.754,
+      "true_fat_mass_kg": 19.79,
+      "true_lean_mass_kg": 59.964,
+      "true_body_fat_pct": 24.814
+    },
+    {
+      "day": 7,
+      "date": "2026-01-08",
+      "true_weight_kg": 79.713,
+      "true_fat_mass_kg": 19.755,
+      "true_lean_mass_kg": 59.958,
+      "true_body_fat_pct": 24.783
+    },
+    {
+      "day": 8,
+      "date": "2026-01-09",
+      "true_weight_kg": 79.672,
+      "true_fat_mass_kg": 19.72,
+      "true_lean_mass_kg": 59.952,
+      "true_body_fat_pct": 24.751
+    },
+    {
+      "day": 9,
+      "date": "2026-01-10",
+      "true_weight_kg": 79.631,
+      "true_fat_mass_kg": 19.685,
+      "true_lean_mass_kg": 59.946,
+      "true_body_fat_pct": 24.72
+    },
+    {
+      "day": 10,
+      "date": "2026-01-11",
+      "true_weight_kg": 79.59,
+      "true_fat_mass_kg": 19.65,
+      "true_lean_mass_kg": 59.94,
+      "true_body_fat_pct": 24.689
+    },
+    {
+      "day": 11,
+      "date": "2026-01-12",
+      "true_weight_kg": 79.549,
+      "true_fat_mass_kg": 19.615,
+      "true_lean_mass_kg": 59.934,
+      "true_body_fat_pct": 24.658
+    },
+    {
+      "day": 13,
+      "date": "2026-01-14",
+      "true_weight_kg": 79.467,
+      "true_fat_mass_kg": 19.545,
+      "true_lean_mass_kg": 59.922,
+      "true_body_fat_pct": 24.595
+    },
+    {
+      "day": 14,
+      "date": "2026-01-15",
+      "true_weight_kg": 79.426,
+      "true_fat_mass_kg": 19.51,
+      "true_lean_mass_kg": 59.916,
+      "true_body_fat_pct": 24.564
+    },
+    {
+      "day": 15,
+      "date": "2026-01-16",
+      "true_weight_kg": 79.385,
+      "true_fat_mass_kg": 19.475,
+      "true_lean_mass_kg": 59.91,
+      "true_body_fat_pct": 24.532
+    },
+    {
+      "day": 16,
+      "date": "2026-01-17",
+      "true_weight_kg": 79.344,
+      "true_fat_mass_kg": 19.44,
+      "true_lean_mass_kg": 59.904,
+      "true_body_fat_pct": 24.501
+    },
+    {
+      "day": 19,
+      "date": "2026-01-20",
+      "true_weight_kg": 79.221,
+      "true_fat_mass_kg": 19.335,
+      "true_lean_mass_kg": 59.886,
+      "true_body_fat_pct": 24.406
+    },
+    {
+      "day": 21,
+      "date": "2026-01-22",
+      "true_weight_kg": 79.139,
+      "true_fat_mass_kg": 19.265,
+      "true_lean_mass_kg": 59.874,
+      "true_body_fat_pct": 24.343
+    },
+    {
+      "day": 22,
+      "date": "2026-01-23",
+      "true_weight_kg": 79.098,
+      "true_fat_mass_kg": 19.23,
+      "true_lean_mass_kg": 59.868,
+      "true_body_fat_pct": 24.312
+    },
+    {
+      "day": 24,
+      "date": "2026-01-25",
+      "true_weight_kg": 79.016,
+      "true_fat_mass_kg": 19.16,
+      "true_lean_mass_kg": 59.856,
+      "true_body_fat_pct": 24.248
+    },
+    {
+      "day": 25,
+      "date": "2026-01-26",
+      "true_weight_kg": 78.975,
+      "true_fat_mass_kg": 19.125,
+      "true_lean_mass_kg": 59.85,
+      "true_body_fat_pct": 24.217
+    },
+    {
+      "day": 27,
+      "date": "2026-01-28",
+      "true_weight_kg": 78.893,
+      "true_fat_mass_kg": 19.055,
+      "true_lean_mass_kg": 59.838,
+      "true_body_fat_pct": 24.153
+    },
+    {
+      "day": 28,
+      "date": "2026-01-29",
+      "true_weight_kg": 78.852,
+      "true_fat_mass_kg": 19.02,
+      "true_lean_mass_kg": 59.832,
+      "true_body_fat_pct": 24.121
+    },
+    {
+      "day": 29,
+      "date": "2026-01-30",
+      "true_weight_kg": 78.811,
+      "true_fat_mass_kg": 18.985,
+      "true_lean_mass_kg": 59.826,
+      "true_body_fat_pct": 24.089
+    },
+    {
+      "day": 30,
+      "date": "2026-01-31",
+      "true_weight_kg": 78.77,
+      "true_fat_mass_kg": 18.95,
+      "true_lean_mass_kg": 59.82,
+      "true_body_fat_pct": 24.057
+    },
+    {
+      "day": 31,
+      "date": "2026-02-01",
+      "true_weight_kg": 78.729,
+      "true_fat_mass_kg": 18.915,
+      "true_lean_mass_kg": 59.814,
+      "true_body_fat_pct": 24.025
+    },
+    {
+      "day": 32,
+      "date": "2026-02-02",
+      "true_weight_kg": 78.688,
+      "true_fat_mass_kg": 18.88,
+      "true_lean_mass_kg": 59.808,
+      "true_body_fat_pct": 23.993
+    },
+    {
+      "day": 33,
+      "date": "2026-02-03",
+      "true_weight_kg": 78.647,
+      "true_fat_mass_kg": 18.845,
+      "true_lean_mass_kg": 59.802,
+      "true_body_fat_pct": 23.961
+    },
+    {
+      "day": 34,
+      "date": "2026-02-04",
+      "true_weight_kg": 78.606,
+      "true_fat_mass_kg": 18.81,
+      "true_lean_mass_kg": 59.796,
+      "true_body_fat_pct": 23.929
+    },
+    {
+      "day": 35,
+      "date": "2026-02-05",
+      "true_weight_kg": 78.565,
+      "true_fat_mass_kg": 18.775,
+      "true_lean_mass_kg": 59.79,
+      "true_body_fat_pct": 23.897
+    },
+    {
+      "day": 37,
+      "date": "2026-02-07",
+      "true_weight_kg": 78.483,
+      "true_fat_mass_kg": 18.705,
+      "true_lean_mass_kg": 59.778,
+      "true_body_fat_pct": 23.833
+    },
+    {
+      "day": 38,
+      "date": "2026-02-08",
+      "true_weight_kg": 78.442,
+      "true_fat_mass_kg": 18.67,
+      "true_lean_mass_kg": 59.772,
+      "true_body_fat_pct": 23.801
+    },
+    {
+      "day": 41,
+      "date": "2026-02-11",
+      "true_weight_kg": 78.319,
+      "true_fat_mass_kg": 18.565,
+      "true_lean_mass_kg": 59.754,
+      "true_body_fat_pct": 23.704
+    },
+    {
+      "day": 42,
+      "date": "2026-02-12",
+      "true_weight_kg": 78.278,
+      "true_fat_mass_kg": 18.53,
+      "true_lean_mass_kg": 59.748,
+      "true_body_fat_pct": 23.672
+    },
+    {
+      "day": 44,
+      "date": "2026-02-14",
+      "true_weight_kg": 78.196,
+      "true_fat_mass_kg": 18.46,
+      "true_lean_mass_kg": 59.736,
+      "true_body_fat_pct": 23.607
+    },
+    {
+      "day": 45,
+      "date": "2026-02-15",
+      "true_weight_kg": 78.155,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.73,
+      "true_body_fat_pct": 23.575
+    },
+    {
+      "day": 46,
+      "date": "2026-02-16",
+      "true_weight_kg": 78.159,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.734,
+      "true_body_fat_pct": 23.574
+    },
+    {
+      "day": 47,
+      "date": "2026-02-17",
+      "true_weight_kg": 78.163,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.738,
+      "true_body_fat_pct": 23.573
+    },
+    {
+      "day": 48,
+      "date": "2026-02-18",
+      "true_weight_kg": 78.167,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.742,
+      "true_body_fat_pct": 23.571
+    },
+    {
+      "day": 50,
+      "date": "2026-02-20",
+      "true_weight_kg": 78.175,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.75,
+      "true_body_fat_pct": 23.569
+    },
+    {
+      "day": 52,
+      "date": "2026-02-22",
+      "true_weight_kg": 78.183,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.758,
+      "true_body_fat_pct": 23.567
+    },
+    {
+      "day": 53,
+      "date": "2026-02-23",
+      "true_weight_kg": 78.187,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.762,
+      "true_body_fat_pct": 23.565
+    },
+    {
+      "day": 54,
+      "date": "2026-02-24",
+      "true_weight_kg": 78.191,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.766,
+      "true_body_fat_pct": 23.564
+    },
+    {
+      "day": 55,
+      "date": "2026-02-25",
+      "true_weight_kg": 78.195,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.77,
+      "true_body_fat_pct": 23.563
+    },
+    {
+      "day": 56,
+      "date": "2026-02-26",
+      "true_weight_kg": 78.199,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.774,
+      "true_body_fat_pct": 23.562
+    },
+    {
+      "day": 57,
+      "date": "2026-02-27",
+      "true_weight_kg": 78.203,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.778,
+      "true_body_fat_pct": 23.56
+    },
+    {
+      "day": 58,
+      "date": "2026-02-28",
+      "true_weight_kg": 78.207,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.782,
+      "true_body_fat_pct": 23.559
+    },
+    {
+      "day": 59,
+      "date": "2026-03-01",
+      "true_weight_kg": 78.211,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.786,
+      "true_body_fat_pct": 23.558
+    },
+    {
+      "day": 60,
+      "date": "2026-03-02",
+      "true_weight_kg": 78.215,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.79,
+      "true_body_fat_pct": 23.557
+    },
+    {
+      "day": 61,
+      "date": "2026-03-03",
+      "true_weight_kg": 78.219,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.794,
+      "true_body_fat_pct": 23.556
+    },
+    {
+      "day": 62,
+      "date": "2026-03-04",
+      "true_weight_kg": 78.223,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.798,
+      "true_body_fat_pct": 23.554
+    },
+    {
+      "day": 63,
+      "date": "2026-03-05",
+      "true_weight_kg": 78.227,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.802,
+      "true_body_fat_pct": 23.553
+    },
+    {
+      "day": 64,
+      "date": "2026-03-06",
+      "true_weight_kg": 78.231,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.806,
+      "true_body_fat_pct": 23.552
+    },
+    {
+      "day": 65,
+      "date": "2026-03-07",
+      "true_weight_kg": 78.235,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.81,
+      "true_body_fat_pct": 23.551
+    },
+    {
+      "day": 66,
+      "date": "2026-03-08",
+      "true_weight_kg": 78.239,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.814,
+      "true_body_fat_pct": 23.55
+    },
+    {
+      "day": 67,
+      "date": "2026-03-09",
+      "true_weight_kg": 78.243,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.818,
+      "true_body_fat_pct": 23.548
+    },
+    {
+      "day": 68,
+      "date": "2026-03-10",
+      "true_weight_kg": 78.247,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.822,
+      "true_body_fat_pct": 23.547
+    },
+    {
+      "day": 69,
+      "date": "2026-03-11",
+      "true_weight_kg": 78.251,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.826,
+      "true_body_fat_pct": 23.546
+    },
+    {
+      "day": 70,
+      "date": "2026-03-12",
+      "true_weight_kg": 78.255,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.83,
+      "true_body_fat_pct": 23.545
+    },
+    {
+      "day": 71,
+      "date": "2026-03-13",
+      "true_weight_kg": 78.259,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.834,
+      "true_body_fat_pct": 23.544
+    },
+    {
+      "day": 73,
+      "date": "2026-03-15",
+      "true_weight_kg": 78.267,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.842,
+      "true_body_fat_pct": 23.541
+    },
+    {
+      "day": 74,
+      "date": "2026-03-16",
+      "true_weight_kg": 78.271,
+      "true_fat_mass_kg": 18.425,
+      "true_lean_mass_kg": 59.846,
+      "true_body_fat_pct": 23.54
+    },
+    {
+      "day": 76,
+      "date": "2026-03-18",
+      "true_weight_kg": 78.249,
+      "true_fat_mass_kg": 18.405,
+      "true_lean_mass_kg": 59.844,
+      "true_body_fat_pct": 23.521
+    },
+    {
+      "day": 77,
+      "date": "2026-03-19",
+      "true_weight_kg": 78.223,
+      "true_fat_mass_kg": 18.385,
+      "true_lean_mass_kg": 59.838,
+      "true_body_fat_pct": 23.503
+    },
+    {
+      "day": 79,
+      "date": "2026-03-21",
+      "true_weight_kg": 78.171,
+      "true_fat_mass_kg": 18.345,
+      "true_lean_mass_kg": 59.826,
+      "true_body_fat_pct": 23.468
+    },
+    {
+      "day": 80,
+      "date": "2026-03-22",
+      "true_weight_kg": 78.145,
+      "true_fat_mass_kg": 18.325,
+      "true_lean_mass_kg": 59.82,
+      "true_body_fat_pct": 23.45
+    },
+    {
+      "day": 81,
+      "date": "2026-03-23",
+      "true_weight_kg": 78.119,
+      "true_fat_mass_kg": 18.305,
+      "true_lean_mass_kg": 59.814,
+      "true_body_fat_pct": 23.432
+    },
+    {
+      "day": 82,
+      "date": "2026-03-24",
+      "true_weight_kg": 78.093,
+      "true_fat_mass_kg": 18.285,
+      "true_lean_mass_kg": 59.808,
+      "true_body_fat_pct": 23.414
+    },
+    {
+      "day": 83,
+      "date": "2026-03-25",
+      "true_weight_kg": 78.067,
+      "true_fat_mass_kg": 18.265,
+      "true_lean_mass_kg": 59.802,
+      "true_body_fat_pct": 23.397
+    },
+    {
+      "day": 84,
+      "date": "2026-03-26",
+      "true_weight_kg": 78.041,
+      "true_fat_mass_kg": 18.245,
+      "true_lean_mass_kg": 59.796,
+      "true_body_fat_pct": 23.379
+    },
+    {
+      "day": 85,
+      "date": "2026-03-27",
+      "true_weight_kg": 78.015,
+      "true_fat_mass_kg": 18.225,
+      "true_lean_mass_kg": 59.79,
+      "true_body_fat_pct": 23.361
+    },
+    {
+      "day": 86,
+      "date": "2026-03-28",
+      "true_weight_kg": 77.989,
+      "true_fat_mass_kg": 18.205,
+      "true_lean_mass_kg": 59.784,
+      "true_body_fat_pct": 23.343
+    },
+    {
+      "day": 87,
+      "date": "2026-03-29",
+      "true_weight_kg": 77.963,
+      "true_fat_mass_kg": 18.185,
+      "true_lean_mass_kg": 59.778,
+      "true_body_fat_pct": 23.325
+    },
+    {
+      "day": 88,
+      "date": "2026-03-30",
+      "true_weight_kg": 77.937,
+      "true_fat_mass_kg": 18.165,
+      "true_lean_mass_kg": 59.772,
+      "true_body_fat_pct": 23.307
+    },
+    {
+      "day": 90,
+      "date": "2026-04-01",
+      "true_weight_kg": 77.885,
+      "true_fat_mass_kg": 18.125,
+      "true_lean_mass_kg": 59.76,
+      "true_body_fat_pct": 23.271
+    },
+    {
+      "day": 91,
+      "date": "2026-04-02",
+      "true_weight_kg": 77.859,
+      "true_fat_mass_kg": 18.105,
+      "true_lean_mass_kg": 59.754,
+      "true_body_fat_pct": 23.254
+    },
+    {
+      "day": 92,
+      "date": "2026-04-03",
+      "true_weight_kg": 77.833,
+      "true_fat_mass_kg": 18.085,
+      "true_lean_mass_kg": 59.748,
+      "true_body_fat_pct": 23.236
+    },
+    {
+      "day": 93,
+      "date": "2026-04-04",
+      "true_weight_kg": 77.807,
+      "true_fat_mass_kg": 18.065,
+      "true_lean_mass_kg": 59.742,
+      "true_body_fat_pct": 23.218
+    },
+    {
+      "day": 94,
+      "date": "2026-04-05",
+      "true_weight_kg": 77.781,
+      "true_fat_mass_kg": 18.045,
+      "true_lean_mass_kg": 59.736,
+      "true_body_fat_pct": 23.2
+    },
+    {
+      "day": 95,
+      "date": "2026-04-06",
+      "true_weight_kg": 77.755,
+      "true_fat_mass_kg": 18.025,
+      "true_lean_mass_kg": 59.73,
+      "true_body_fat_pct": 23.182
+    },
+    {
+      "day": 96,
+      "date": "2026-04-07",
+      "true_weight_kg": 77.729,
+      "true_fat_mass_kg": 18.005,
+      "true_lean_mass_kg": 59.724,
+      "true_body_fat_pct": 23.164
+    },
+    {
+      "day": 97,
+      "date": "2026-04-08",
+      "true_weight_kg": 77.703,
+      "true_fat_mass_kg": 17.985,
+      "true_lean_mass_kg": 59.718,
+      "true_body_fat_pct": 23.146
+    },
+    {
+      "day": 98,
+      "date": "2026-04-09",
+      "true_weight_kg": 77.677,
+      "true_fat_mass_kg": 17.965,
+      "true_lean_mass_kg": 59.712,
+      "true_body_fat_pct": 23.128
+    },
+    {
+      "day": 99,
+      "date": "2026-04-10",
+      "true_weight_kg": 77.651,
+      "true_fat_mass_kg": 17.945,
+      "true_lean_mass_kg": 59.706,
+      "true_body_fat_pct": 23.11
+    },
+    {
+      "day": 101,
+      "date": "2026-04-12",
+      "true_weight_kg": 77.599,
+      "true_fat_mass_kg": 17.905,
+      "true_lean_mass_kg": 59.694,
+      "true_body_fat_pct": 23.074
+    },
+    {
+      "day": 102,
+      "date": "2026-04-13",
+      "true_weight_kg": 77.573,
+      "true_fat_mass_kg": 17.885,
+      "true_lean_mass_kg": 59.688,
+      "true_body_fat_pct": 23.056
+    },
+    {
+      "day": 103,
+      "date": "2026-04-14",
+      "true_weight_kg": 77.547,
+      "true_fat_mass_kg": 17.865,
+      "true_lean_mass_kg": 59.682,
+      "true_body_fat_pct": 23.038
+    },
+    {
+      "day": 104,
+      "date": "2026-04-15",
+      "true_weight_kg": 77.521,
+      "true_fat_mass_kg": 17.845,
+      "true_lean_mass_kg": 59.676,
+      "true_body_fat_pct": 23.02
+    },
+    {
+      "day": 105,
+      "date": "2026-04-16",
+      "true_weight_kg": 77.495,
+      "true_fat_mass_kg": 17.825,
+      "true_lean_mass_kg": 59.67,
+      "true_body_fat_pct": 23.001
+    },
+    {
+      "day": 107,
+      "date": "2026-04-18",
+      "true_weight_kg": 77.443,
+      "true_fat_mass_kg": 17.785,
+      "true_lean_mass_kg": 59.658,
+      "true_body_fat_pct": 22.965
+    },
+    {
+      "day": 108,
+      "date": "2026-04-19",
+      "true_weight_kg": 77.417,
+      "true_fat_mass_kg": 17.765,
+      "true_lean_mass_kg": 59.652,
+      "true_body_fat_pct": 22.947
+    },
+    {
+      "day": 109,
+      "date": "2026-04-20",
+      "true_weight_kg": 77.391,
+      "true_fat_mass_kg": 17.745,
+      "true_lean_mass_kg": 59.646,
+      "true_body_fat_pct": 22.929
+    },
+    {
+      "day": 110,
+      "date": "2026-04-21",
+      "true_weight_kg": 77.365,
+      "true_fat_mass_kg": 17.725,
+      "true_lean_mass_kg": 59.64,
+      "true_body_fat_pct": 22.911
+    },
+    {
+      "day": 112,
+      "date": "2026-04-23",
+      "true_weight_kg": 77.313,
+      "true_fat_mass_kg": 17.685,
+      "true_lean_mass_kg": 59.628,
+      "true_body_fat_pct": 22.875
+    },
+    {
+      "day": 113,
+      "date": "2026-04-24",
+      "true_weight_kg": 77.287,
+      "true_fat_mass_kg": 17.665,
+      "true_lean_mass_kg": 59.622,
+      "true_body_fat_pct": 22.856
+    },
+    {
+      "day": 115,
+      "date": "2026-04-26",
+      "true_weight_kg": 77.235,
+      "true_fat_mass_kg": 17.625,
+      "true_lean_mass_kg": 59.61,
+      "true_body_fat_pct": 22.82
+    },
+    {
+      "day": 116,
+      "date": "2026-04-27",
+      "true_weight_kg": 77.209,
+      "true_fat_mass_kg": 17.605,
+      "true_lean_mass_kg": 59.604,
+      "true_body_fat_pct": 22.802
+    },
+    {
+      "day": 117,
+      "date": "2026-04-28",
+      "true_weight_kg": 77.183,
+      "true_fat_mass_kg": 17.585,
+      "true_lean_mass_kg": 59.598,
+      "true_body_fat_pct": 22.784
+    },
+    {
+      "day": 118,
+      "date": "2026-04-29",
+      "true_weight_kg": 77.157,
+      "true_fat_mass_kg": 17.565,
+      "true_lean_mass_kg": 59.592,
+      "true_body_fat_pct": 22.765
+    },
+    {
+      "day": 119,
+      "date": "2026-04-30",
+      "true_weight_kg": 77.131,
+      "true_fat_mass_kg": 17.545,
+      "true_lean_mass_kg": 59.586,
+      "true_body_fat_pct": 22.747
+    }
+  ]
+}

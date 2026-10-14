@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+.venv/
+venv/
+env/
+
+# 报告是构建产物，每次跑都能重新生成，不进版本库。
+# （截图在 docs/ 下面，那个要进。）
+report.html
+*.report.html
+
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 真人数据永远不进仓库。示例数据用合成数据生成：
+#   python run.py --synthesize
+# 所以下面前缀的文件会被挡住。
+my-data*.csv
+my-data*.jsonl
